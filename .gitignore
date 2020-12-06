@@ -1,0 +1,4 @@
+geckodriver.log
+*.pyc
+videoid.json
+.idea/
