@@ -7,13 +7,16 @@ Some scripts thats automate some routine using python3 (tested on 3.6 version)
 check your youtube channel on new video upload and open it if new video exists.
 
 Preconditions:
-* Download geckodriver:
-https://github.com/mozilla/geckodriver/releases - for Mozilla
-http://chromedriver.chromium.org/downloads - for Chrome
+* Download geckodriver for Firefox or Chromedriver for Google Chrome:
+https://github.com/mozilla/geckodriver/releases
+http://chromedriver.chromium.org/downloads
 
-* Add path where geckodriver located to System PATH:
+* Add path where driver located to System PATH:
 ```
 export PATH=$PATH:/path/to/directory/of/executable/downloaded/in/previous/step
 ```
 * install selenium
 ```pip install selenium```
+
+* set api_key to https://console.developers.google.com and channel_id inside script
+
