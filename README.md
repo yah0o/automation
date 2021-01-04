@@ -1,10 +1,8 @@
 **Automation**
 =================
-Some scripts thats automate some routine using python3 (tested on 3.6 version)
+Some scripts thats automate some routine using python3 (tested on 3.6 version) or bash
 
-**```check_youtube_channel.py```**
-
-check your youtube channel on new video upload and open it if new video exists.
+**```check_youtube_channel.py```** : check your youtube channel on new video upload and open it if new video exists.
 
 Preconditions:
 * Download geckodriver for Firefox or Chromedriver for Google Chrome:
@@ -20,3 +18,5 @@ export PATH=$PATH:/path/to/directory/of/executable/downloaded/in/previous/step
 
 * set api_key to https://console.developers.google.com and channel_id inside script
 
+
+**```rollback_operations_postgre.sh```** : rollback operations of your service (postgre example)
