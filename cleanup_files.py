@@ -4,7 +4,7 @@ filespath = os.path.expandvars('$HOME/Desktop')
 
 
 def main():
-    filelist = [files for files in os.listdir(filespath) if files.endswith(".png")]
+    filelist = [files for files in os.listdir(filespath) if files.endswith((".png", ".jpg"))]
     if len(filelist) == 0:
         print(f"No screenshots to delete in {filespath}")
     else:
