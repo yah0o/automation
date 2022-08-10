@@ -22,3 +22,5 @@ export PATH=$PATH:/path/to/directory/of/executable/downloaded/in/previous/step
 **```rollback_operations_postgre.sh```** : rollback operations of your service (postgre example)
 
 **```cleanup_files.py```** : delete files in directory (screenshots cleanup example)
+
+**```service_names_yaml.py```** : takes yaml file, parse it and store name of services (1st layer) to Excel file

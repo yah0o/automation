@@ -1,9 +1,6 @@
 import yaml
 import xlsxwriter
 
-
-# Script takes yaml file, parse it and store name of services (1st layer) to Excel file
-
 yamlpath = '~/test.yaml'
 realm = 'test'  # yaml name (e.g. yaml for specific environment)
 
