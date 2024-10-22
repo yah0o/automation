@@ -24,3 +24,5 @@ export PATH=$PATH:/path/to/directory/of/executable/downloaded/in/previous/step
 **```cleanup_files.py```** : delete files in directory (screenshots cleanup example)
 
 **```service_names_yaml.py```** : takes yaml file, parse it and store name of services (1st layer) to Excel file
+
+**```forward_bot.py```** : code of telegram bot that forward messages from channels to groups
